@@ -1,0 +1,20 @@
+{
+  "period_seconds": 10,
+  "period_price": 5,
+  "start": 0,
+  "balances": {
+    "a": 8
+  },
+  "events": [
+    {
+      "timestamp": 0,
+      "account": "a",
+      "kind": "renew"
+    },
+    {
+      "timestamp": 10,
+      "account": "a",
+      "kind": "renew"
+    }
+  ]
+}

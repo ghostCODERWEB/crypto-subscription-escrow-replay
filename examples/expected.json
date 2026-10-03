@@ -1,0 +1,28 @@
+{
+  "balances": {
+    "a": 3
+  },
+  "cancelled": [],
+  "paid_until": {
+    "a": 10
+  },
+  "revenue": 5,
+  "trace": [
+    {
+      "account": "a",
+      "balance": 3,
+      "cancelled": false,
+      "charged": 5,
+      "paid_until": 10,
+      "timestamp": 0
+    },
+    {
+      "account": "a",
+      "balance": 3,
+      "cancelled": false,
+      "charged": 0,
+      "paid_until": 10,
+      "timestamp": 10
+    }
+  ]
+}
